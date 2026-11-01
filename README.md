@@ -20,7 +20,7 @@ A log of the projects I build with AI-assisted (vibe coding) workflows.
 #### PiliNara — 基于 PiliPlus 的 B 站客户端
 
 - 仓库：[zhouwjfi/PiliNara](https://github.com/zhouwjfi/PiliNara)
-- 上游：[bggRGjQaUbCoE/PiliPlus](https://github.com/bggRGjQaUbCoE/PiliPlus)
+- 上游（直接 fork 的仓库）：[Starfallan/PiliNara](https://github.com/Starfallan/PiliNara)
 - 我在其之上新增：
   - **投屏到 newBV**：按需扫描局域网 DLNA 设备，只在点击 TV 按钮时扫描并缓存；连接失败自动丢弃缓存重扫
   - 视频详情页、播放页、封面长按卡片新增 TV 投屏入口，扫不到设备时隐藏按钮
@@ -55,7 +55,7 @@ A log of the projects I build with AI-assisted (vibe coding) workflows.
 #### PiliNara — a Bilibili client based on PiliPlus
 
 - Repo: [zhouwjfi/PiliNara](https://github.com/zhouwjfi/PiliNara)
-- Upstream: [bggRGjQaUbCoE/PiliPlus](https://github.com/bggRGjQaUbCoE/PiliPlus)
+- Upstream (the repo forked directly): [Starfallan/PiliNara](https://github.com/Starfallan/PiliNara)
 - What I added:
   - **Cast to newBV**: on-demand discovery of DLNA devices on the LAN — scanning only when the TV button is tapped, with cached results and automatic re-scan on failure
   - TV cast entries on the video detail page, player page and the long-press cover sheet; the entry hides itself when no device is found

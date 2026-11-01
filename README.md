@@ -44,7 +44,14 @@ A log of the projects I build with AI-assisted (vibe coding) workflows.
 
 ### 自己的项目
 
-暂无。
+#### ZCode — ZCode Remote Control 的 Android 客户端
+
+- 仓库：[zhouwjfi/zcode-app](https://github.com/zhouwjfi/zcode-app)
+- 实现内容：
+  - 扫描 ZCode 桌面端 Remote Control 弹窗的二维码即可连接，也支持手动输入地址
+  - 沉浸式全屏 WebView（隐藏状态栏 / 导航栏，无浏览器 UI），支持 Cookie / localStorage / JS，外链交给系统处理
+  - 连接地址持久化，配置后打开 App 直接进入页面；长按桌面图标「Change URL」或返回键退出弹窗可重新配置
+  - 允许明文 HTTP，方便直接访问局域网地址
 
 ---
 
@@ -79,4 +86,11 @@ A log of the projects I build with AI-assisted (vibe coding) workflows.
 
 ### My own projects
 
-None yet.
+#### ZCode — an Android client for ZCode Remote Control
+
+- Repo: [zhouwjfi/zcode-app](https://github.com/zhouwjfi/zcode-app)
+- What it implements:
+  - Connect by scanning the QR code in ZCode desktop's Remote Control dialog, with manual URL input as a fallback
+  - Immersive fullscreen WebView (no status / navigation bar, no browser UI) with full Cookie / localStorage / JS support; external schemes are handed to the system
+  - The connection URL persists, so the app opens straight into the page; long-press the launcher icon → “Change URL”, or use the exit dialog to reconfigure
+  - Cleartext HTTP is allowed so intranet addresses work directly

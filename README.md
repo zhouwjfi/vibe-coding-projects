@@ -44,3 +44,12 @@ A log of the projects I build with AI-assisted (vibe coding) workflows.
   - Immersive fullscreen WebView (no status / navigation bar, no browser UI) with full Cookie / localStorage / JS support; external schemes are handed to the system
   - The connection URL persists, so the app opens straight into the page; long-press the launcher icon → “Change URL”, or use the exit dialog to reconfigure
   - Cleartext HTTP is allowed so intranet addresses work directly
+
+### TV QR Installer — install APKs on Android TV by scanning a QR code
+
+- Repo: [zhouwjfi/tv-qr-installer](https://github.com/zhouwjfi/tv-qr-installer)
+- What it implements:
+  - A foreground service on the TV serves an HTTP upload page on the LAN and shows its URL as a QR code on screen
+  - Scan the QR code, pick an APK on the phone and upload it with a progress bar; the system installer opens automatically
+  - Missing the "install unknown apps" permission? It opens the settings page and continues installing when you come back
+  - Data stays inside the local network; Leanback launcher entry and landscape always-on screen

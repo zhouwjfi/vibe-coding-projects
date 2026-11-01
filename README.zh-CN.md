@@ -44,3 +44,12 @@
   - 沉浸式全屏 WebView（隐藏状态栏 / 导航栏，无浏览器 UI），支持 Cookie / localStorage / JS，外链交给系统处理
   - 连接地址持久化，配置后打开 App 直接进入页面；长按桌面图标「Change URL」或返回键退出弹窗可重新配置
   - 允许明文 HTTP，方便直接访问局域网地址
+
+### TV 扫码安装 — Android TV 扫码接收 APK 并安装
+
+- 仓库：[zhouwjfi/tv-qr-installer](https://github.com/zhouwjfi/tv-qr-installer)
+- 实现内容：
+  - 电视端前台服务在局域网内起 HTTP 上传页，屏幕上直接显示地址二维码
+  - 手机扫码选择 APK 上传（带进度条），接收后自动拉起系统安装器
+  - 缺少「安装未知应用」权限时跳到授权页，返回后自动继续安装
+  - 数据只在局域网内传输；支持 Leanback 桌面入口、横屏常亮
